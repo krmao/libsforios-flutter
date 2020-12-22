@@ -1,0 +1,6 @@
+use_frameworks!
+target 'FlutterBusiness_Tests' do
+  pod 'FlutterBusiness', :path => '../'
+  
+  
+end

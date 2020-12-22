@@ -1,0 +1,22 @@
+{
+  "name": "FlutterBusiness",
+  "version": "0.1.0",
+  "summary": "A short description of FlutterBusiness.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/767709667@qq.com/FlutterBusiness",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "767709667@qq.com": "kr.mao@ctrip.com"
+  },
+  "source": {
+    "git": "https://github.com/767709667@qq.com/FlutterBusiness.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "FlutterBusiness/Classes/**/*"
+}

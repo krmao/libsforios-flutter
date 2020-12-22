@@ -10,10 +10,10 @@ Pod::Spec.new do |s|
   s.name             = 'FlutterBusiness'
   s.version          = '0.1.0'
   s.summary          = 'A short description of FlutterBusiness.'
-  s.homepage         = 'https://github.com/767709667@qq.com/FlutterBusiness'
+  s.homepage         = 'https://github.com/krmao/libsforios-flutter'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Codes Dancing Team' => '767709667@qq.com' }
-  s.source           = { :git => 'https://github.com/767709667@qq.com/FlutterBusiness.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/krmao/libsforios-flutter.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '9.0'
   s.source_files = 'FlutterBusiness/Classes/**/*.{h,m,mm}'

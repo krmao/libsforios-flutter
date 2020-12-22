@@ -1,0 +1,47 @@
+{
+  "name": "FlutterBusiness",
+  "version": "0.1.0",
+  "summary": "A short description of FlutterBusiness.",
+  "homepage": "https://github.com/krmao/libsforios-flutter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Codes Dancing Team": "767709667@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/krmao/libsforios-flutter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "FlutterBusiness/Classes/**/*.{h,m,mm}",
+  "subspecs": [
+    {
+      "name": "FlutterBusinessDebug",
+      "vendored_frameworks": [
+        "FlutterBusiness/Classes/FlutterBusinessDebug/App.framework",
+        "FlutterBusiness/Classes/FlutterBusinessDebug/flutter_boost.framework",
+        "FlutterBusiness/Classes/FlutterBusinessDebug/FlutterPluginRegistrant.framework",
+        "FlutterBusiness/Classes/FlutterBusinessDebug/FMDB.framework",
+        "FlutterBusiness/Classes/FlutterBusinessDebug/path_provider.framework",
+        "FlutterBusiness/Classes/FlutterBusinessDebug/shared_preferences.framework",
+        "FlutterBusiness/Classes/FlutterBusinessDebug/sqflite.framework"
+      ]
+    },
+    {
+      "name": "FlutterBusinessRelease",
+      "vendored_frameworks": [
+        "FlutterBusiness/Classes/FlutterBusinessRelease/App.framework",
+        "FlutterBusiness/Classes/FlutterBusinessRelease/flutter_boost.framework",
+        "FlutterBusiness/Classes/FlutterBusinessRelease/FlutterPluginRegistrant.framework",
+        "FlutterBusiness/Classes/FlutterBusinessRelease/FMDB.framework",
+        "FlutterBusiness/Classes/FlutterBusinessRelease/path_provider.framework",
+        "FlutterBusiness/Classes/FlutterBusinessRelease/shared_preferences.framework",
+        "FlutterBusiness/Classes/FlutterBusinessRelease/sqflite.framework"
+      ]
+    }
+  ]
+}

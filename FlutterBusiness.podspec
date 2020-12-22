@@ -17,9 +17,9 @@ Pod::Spec.new do |s|
  
   s.ios.deployment_target = '9.0'
   s.source_files = 'FlutterBusiness/Classes/**/*.{h,m,mm}'
-  s.resource_bundles = {
-    'FlutterBusiness' => ['FlutterBusiness/Assets/*.png']
-  }
+  # s.resource_bundles = {
+  #   'FlutterBusiness' => ['FlutterBusiness/Assets/*.png']
+  # }
   
   # s.social_media_url = 'https://github.com/krmao'
   # s.public_header_files = 'Pod/Classes/**/*.h'
